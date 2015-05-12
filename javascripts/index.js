@@ -1,9 +1,9 @@
-$(document).ready(function () {
+$(document).ready(function() {
   var conway = new Conway(100);
   conway.renderGrid();
-  var loop = setInterval(function() {
-    conway.tallyNeighbors();
-    conway.updateCells();
+  var time = setInterval( function () {
+    conway.updateNeighborsForAllCells();
+    conway.updateAllCells();
   }, 50);
 });
 

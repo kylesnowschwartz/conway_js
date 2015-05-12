@@ -1,1 +1,0 @@
-# conway_js
