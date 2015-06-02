@@ -8,8 +8,13 @@ h1 { letter-spacing: 5px; font-size: 50px; font-weight: 100; }
 
 #grid { position: relative; margin: 0 auto; }
 
-.row { height: 5px; }
+/*#grid { position: relative; margin: 0 auto; height: 1500px; width: 100%; background-color: orange; }*/
 
-.cell { display: inline-block; width: 5px; height: 5px; border-radius: 5px; }
+.row { height: 12px; position: relative; }
 
-.alive { background: rgb(204, 204, 159); }
+.cell { display: inline-block; width: 12px; height: 100%; border-radius: 100%; }
+
+/*.alive { background: rgb(204, 204, 159); }*/
+
+.alive { background-image: url('https://www.med.upenn.edu/camb/user_images/JustinBeckerlabphoto1-2014-2.jpg'); background-size: cover; }
+
